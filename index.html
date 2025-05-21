@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mohamed Adel | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     :root {
       --color-bg-light: #f3f2ef;
@@ -13,9 +14,8 @@
 
       --color-bg-dark: #1a1c1d;
       --color-text-dark: #e0e0e0;
-      --color-primary-dark: #6bb5b2;
+      --color-primary-dark: #1d8784;
       --color-secondary-dark: #8fa99e;
-
       --transition-speed: 0.3s;
     }
 
@@ -184,12 +184,16 @@
     body.dark-mode footer {
       background-color: var(--color-primary-dark);
     }
+    html {
+  scroll-behavior: smooth;
+}
   </style>
 </head>
 <body>
   <header>
     <h1>Mohamed Adel Abdallah</h1>
     <p>20-year-old Cybersecurity Enthusiast | Ranked Top 20 Swimmers in Cairo - 2021</p>
+    <p style="font-style:italic; font-size: 1rem; margin-top: 5px;">Building, Learning, and Securing the Future</p>
     <button id="toggle-theme">Dark Mode</button>
   </header>
 
@@ -248,6 +252,8 @@
   <section>
     <h2>Social Links</h2>
     <div class="social">
+      <a href="https://github.com/dooooolaa" target="_blank"><img src="images/github-original-wordmark-icon-256x253-2l79vijg.png" alt="Github"></a>
+      <a href="mohamedadelabdullah7@gmail.com" target="_blank"><img src="images/free-mail-icon-142-thumb.png" alt="Mail"></a>
       <a href="https://api.whatsapp.com/send?phone=201144509350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
       <a href="https://www.facebook.com/share/1F9DdkXo2u/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
       <a href="https://www.instagram.com/mo_adel.911?igsh=a3lweHRzbG44dDlq" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
@@ -257,9 +263,9 @@
   </section>
 
   <footer>
-    <p>Mohamed Adel</p>
+    <p>&copy; 2025 Mohamed Adel. All rights reserved.</p>
   </footer>
-
+  
   <script>
     const toggleBtn = document.getElementById('toggle-theme');
     const body = document.body;
